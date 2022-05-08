@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Табличний процесор MS Excel</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="shortcut icon" href="favicon.ico.png">
+		
+		<script src="js/JQuery_1_8_2.js"></script>
+        <script src="js/test.js"></script>
+		
+        <!--[if IE 8]>      
+            <link rel="stylesheet" type="text/css" href="style/style_ie8.css">
+        <![endif]-->
+        
+        <!-- html5.js for IE less than 9 -->
+         <!-- css3-mediaqueries.js for IE less than 9 -->
+        <!--[if lt IE 9]>      
+            <script type="text/javascript" src="js/html5.js"></script>
+            <script type="text/javascript" src="js/css3.mediaquery.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+	
+	<div class="test" id="test">
+            <a href="test_3.html">
+                <img src="images/test.png" alt="" width="20">
+            </a>
+	 </div><!--test end here-->
+	 
+        <div class="wrapper_1">
+            <div class="wrapper">
+                <header class="header">
+                    <div class="top_menu">
+                        <ul>
+                            <li>
+                                <a href="index.html">Головна</a>
+                            </li>
+                            <li>
+                                <a href="list.html">Зміст підручника</a>
+                            </li>
+                            <li>
+                                <a href="literature.html">Використані джерела</a>
+                            </li>
+							<li>
+                                <a href="zagotovki.html">Заготовки до вправ</a>
+                            </li>
+                        </ul>
+                    </div><!--top_menu end here-->
+                    <div class="clear"></div>
+                    <div class="header_logo f_left">
+					<!--<a href="#"><img src="images/Excel_Logo.png" alt="" /></a>-->
+					   <a href="index.html">Табличний процесор <span>MS Excel</span></a>
+                    </div><!--header_logo end here-->
+                    <div class="clear"></div>
+                    <nav class="header_nav">
+                        <ul>
+                            <li>
+                                <a href="part_1.html">Основи роботи</a>
+                            </li>
+                            <li>
+                                <a href="part_2.html">Формули</a>
+                            </li>
+                            <li>
+                                <a href="part_3.html">Вбудовані функції</a>
+                            </li>
+                            <li>
+                                <a href="part_4.html">Побудова діаграм</a>
+                            </li>
+                            <li>
+                                <a href="part_5.html">Вибирання даних</a>
+                            </li>
+                          <li>
+                                <a href="part_6.html">Задачі оптимізації</a>
+                            </li>
+							 <li>
+                                <a href="part_7.html">Статистичні методи</a>
+                            </li>
+                        </ul>
+                    </nav><!--header_nav end here-->
+                    <div class="clear"></div>
+                </header><!--header end here-->
+                <div class="content_w">
+                <aside class="sidebar_left f_left">
+                    <h2>
+                        Теорія
+                    </h2>
+                    <ul>
+					    <li>
+                            <a href="function.html">Поняття функції</a>
+                        </li>
+						 <li>
+                            <a href="function_category.html">Категорії функцій</a>
+                        </li>					
+                    </ul><br/>
+					
+					<h2>
+                        Практика
+                    </h2>
+					<ul>
+
+					 <li>
+                            <a href="excercise_3.html">Вправа 3</a>
+                        </li>                    
+                       <li>
+                            <a href="practice_3_1.html">Практична робота № 3.1</a>
+                        </li>
+						<li>
+                            <a href="practice_3_2.html">Практична робота № 3.2</a>
+                        </li>
+					</ul>	
+					<h2>
+                        Самостійно
+                    </h2>
+					<ul>
+					 	<li>
+                            <a href="independent_work_3.html">Завдання 1-5</a>
+                        </li>
+					</ul>						
+                </aside><!--sidebar_left end here-->
+                <section class="content f_right">
+                    <article>
+                        <h2>Практична робота 3.2</h2>
+				<p>Розв'яжіть таку математичну задачу: обчислити кількість дільників заданого користувачем числа, яке не перевищує 100. Користувач має вводити число у певну клітинку, а результат повинен автоматично відображатися в іншій клітинці.</p>
+				<p><b>Аналіз завдання</b></p>
+				<p>Отже, потрібно визначити, на скільки чисел у діапазоні [1;а] введене користувачем число а ділиться без остачі. Замість діапазону [1;а] можна розглядати діапазон [1;100]: очевидно, що серед чисел, більших за а, дільників а не буде. Числа від 1 до 100 можна ввести у діапазоні А1:А100, а в діапазоні В1:В100 – обчислити остачі від ділення а на відповідне число зі стовпця А. Залишиться визначити кількість нулів у діапазоні В1:В100 – вона дорівнюватиме шуканому результату.</p>
+				<p><b>Хід виконання</b></p>
+						<div class="list">
+						<ol>	
+		<li>Створіть таблицю за формою, яка подана на рис. 3.11. Клітинка D1 призначена для введення числа, а клітинка D2 – для відображення результату. Збережіть таблицю у файлі з іменем <b>Практ_3_2.хlsx</b>.</li>
+					<div class="img" >
+					<img src="images/article/3/pict.3.11.jpg" alt=""><br>
+					<span>Рис. 3.11. Форма таблиці для обчислення кількості дільників заданого числа</span>
+					</div>
+		<li>У діапазоні А1:А100 створіть арифметичну прогресію цілих чисел від 1 до 100 із кроком 1 (згадайте матеріал розділу 1).</li>
+		<li>У клітинку В1 уведіть формулу для обчислення остачі від ділення числа, введеного користувачем (клітинка D1), на число у клітинці А1.
+			<ul>
+				<li>Виділіть клітинку В1 і клацніть кнопку <img src="images/icons/icon25.jpg"> <b>(Вставка функції)</b> зліва від рядка формул.</li>
+				<li>У вікні <b>Вставка функції</b> з розкривного списку <b>Категорія</b> виберіть категорію <b>Математичні</b>, а у списку <b>Виберіть функцію</b> – функцію <b>MOD</b> (рос. ОСТАТ) і клацніть її двічі.</li>
+				<li>У вікні <b>Аргументи функції</b> у поле <b>Число</b> введіть адресу D1 (клацніть у полі <b>Число</b>, а потім – на клітинці D1), а в поле <b>Дільник</b> – адресу А1 (рис. 3.12).</li>
+				<li>Клацніть кнопку <b>ОК</b>. У клітинку В1 буде введено формулу <b>=MOD(D1;A1)</b>.</li>
+			</ul>
+		</li>
+					<div class="img" >
+					<img src="images/article/3/pict.3.12.jpg" alt=""><br>
+					<span>Рис. 3.12. Введення аргументів функції MOD</span>
+					</div>
+		<li>Під час копіювання у введеній формулі зміщуватимуться обидві адреси, а нам потрібно, щоб адреса D1 залишалась незмінною. Зафіксуйте номер стовпця у цьому посиланні самостійно (згадайте матеріал розділу 2).</li>
+		<li>Скопіюйте формулу з клітинки В1 в усі клітинки діапазону В2:В100. Якщо ввести у клітинку D1 число 18, аркуш набуде такого вигляду, як на рис. 3.13.</li>
+					<div class="img" >
+					<img src="images/article/3/pict.3.13.jpg" alt=""><br>
+					<span>Рис. 3.13. Обчислення дільників числа</span>
+					</div>
+		<li>Тепер у клітинці D2 потрібно визначити кількість нулів у діапазоні В1:В100. Для цього скористайтеся функцією <b>СОUNТІF</b>(рос. СЧЕТЕСЛИ).
+			<ul>	
+				<li>Виділіть клітинку D2 і клацніть кнопку <img src="images/icons/icon25.jpg"> (Вставка функції).</li>
+				<li>У вікні <b>Вставка функції</b> в розкривному списку Категорія виберіть категорію <b>Статистичні</b>, а у списку <b>Виберіть функцію</b> – функцію <b>СОUNТІF</b> і клацніть її двічі.</li>
+				<li>Перейшовши у вікно <b>Аргументи функції</b>, в поле <b>Діапазон</b> введіть адресу В1:В100 (клацніть кнопку а потім виділіть діапазон), а в поле <b>Критерій</b> – число 0 (рис. 3.14).</li>
+					<div class="img" >
+					<img src="images/article/3/pict.3.14.jpg" alt=""><br>
+					<span>Рис. 3.14. Введення аргументів функції СОUNТІF</span>
+					</div>
+				<li>Клацніть кнопку <b>ОК</b>, і у клітинці D1 з'явиться формула <b>=СОUNТІF(В1:В100;0)</b> та буде обчислено результат.</li>
+			</ul>
+		</li>
+		<li>Введіть у клітинку D1 різні значення, щоб перевірити роботу функцій. Зауважте: прості числа мають рівно два дільники. Як ви вважаєте, яке число в діапазоні [0; 100] має найбільшу кількість дільників?</li>
+						</ol>
+						</div>
+                    </article>
+                </section><!--content end here-->
+                
+                
+                <div class="clear"></div>
+                </div><!--content_w end here-->
+            </div><!--wrapper end here-->
+        </div><!--wrapper1 end here-->
+        <footer class="footer">
+            <div class="copyright">
+                © 2014 | Гришуніна Марина
+            </div><!--copyright end here-->
+        </footer><!--footer end here-->
+    </body>
+</html>

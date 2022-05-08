@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Табличний процесор MS Excel</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="shortcut icon" href="favicon.ico.png">
+		
+		<script src="js/JQuery_1_8_2.js"></script>
+        <script src="js/test.js"></script>
+		
+        <!--[if IE 8]>      
+            <link rel="stylesheet" type="text/css" href="style/style_ie8.css">
+        <![endif]-->
+        
+        <!-- html5.js for IE less than 9 -->
+         <!-- css3-mediaqueries.js for IE less than 9 -->
+        <!--[if lt IE 9]>      
+            <script type="text/javascript" src="js/html5.js"></script>
+            <script type="text/javascript" src="js/css3.mediaquery.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+	
+	<div class="test" id="test">
+            <a href="test_3.html">
+                <img src="images/test.png" alt="" width="20">
+            </a>
+	 </div><!--test end here-->
+	 
+        <div class="wrapper_1">
+            <div class="wrapper">
+                <header class="header">
+                    <div class="top_menu">
+                        <ul>
+                            <li>
+                                <a href="index.html">Головна</a>
+                            </li>
+                            <li>
+                                <a href="list.html">Зміст підручника</a>
+                            </li>
+                            <li>
+                                <a href="literature.html">Використані джерела</a>
+                            </li>
+							<li>
+                                <a href="zagotovki.html">Заготовки до вправ</a>
+                            </li>
+                        </ul>
+                    </div><!--top_menu end here-->
+                    <div class="clear"></div>
+                    <div class="header_logo f_left">
+					<!--<a href="#"><img src="images/Excel_Logo.png" alt="" /></a>-->
+					   <a href="index.html">Табличний процесор <span>MS Excel</span></a>
+                    </div><!--header_logo end here-->
+                    <div class="clear"></div>
+                    <nav class="header_nav">
+                        <ul>
+                            <li>
+                                <a href="part_1.html">Основи роботи</a>
+                            </li>
+                            <li>
+                                <a href="part_2.html">Формули</a>
+                            </li>
+                            <li>
+                                <a href="part_3.html">Вбудовані функції</a>
+                            </li>
+                            <li>
+                                <a href="part_4.html">Побудова діаграм</a>
+                            </li>
+                            <li>
+                                <a href="part_5.html">Вибирання даних</a>
+                            </li>
+                          <li>
+                                <a href="part_6.html">Задачі оптимізації</a>
+                            </li>
+							 <li>
+                                <a href="part_7.html">Статистичні методи</a>
+                            </li>
+                        </ul>
+                    </nav><!--header_nav end here-->
+                    <div class="clear"></div>
+                </header><!--header end here-->
+                <div class="content_w">
+                <aside class="sidebar_left f_left">
+                    <h2>
+                        Теорія
+                    </h2>
+                    <ul>
+					    <li>
+                            <a href="function.html">Поняття функції</a>
+                        </li>
+						 <li>
+                            <a href="function_category.html">Категорії функцій</a>
+                        </li>					
+                    </ul><br/>
+					
+					<h2>
+                        Практика
+                    </h2>
+					<ul>
+					 <li>
+                            <a href="excercise_3.html">Вправа 3</a>
+                        </li>                    
+                       <li>
+                            <a href="practice_3_1.html">Практична робота № 3.1</a>
+                        </li>
+						<li>
+                            <a href="practice_3_2.html">Практична робота № 3.2</a>
+                        </li>
+					</ul>	
+					<h2>
+                        Самостійно
+                    </h2>
+					<ul>
+					 	<li>
+                            <a href="independent_work_3.html">Завдання 1-5</a>
+                        </li>
+					</ul>						
+                </aside><!--sidebar_left end here-->
+                <section class="content f_right">
+                    <article>
+                        <h2>Практична робота 3.1</h2>
+				<p>Створіть таблицю для введення й обчислення результатів медичного огляду працівників певного підприємства.</p>
+				<p><b>Хід виконання</b></p>
+				<div class="list">
+		<ol>	
+			<li>Створіть таблицю за формою, поданою на рис. 3.9.  Збережіть її у файлі з іменем <b>Практ_3_1.xlsx</b>. уведіть дані у стовпці <b>Табельний номер; Маса тіла, кг; м і Частота пульсу</b>. </li>
+		<div class="img" >
+			<img src="images/article/3/pict.3.9.jpg" alt=""><br>
+			<span>Рис. 3.9. Форма таблиці для запису результатів медичного огляду працівників підприємства</span>
+		</div>
+			<li>На основі даних, наведених у таблиці 3.1, визначте, чи є відхилення пульсу від норми. Для цього уведіть до клітинки G3 таку формулу: <i><b>=IF(F3&lt60; “Низький пульс”; IF(F3&lt=80; “Норма”;“Підвищений пульс”</b></i>)).
+			<p>Зміст формули такий: якщо пульс становить менше 60 ударів за хвилину, то це низький пульс, в іншому випадку треба виконати додаткову перевірку: якщо пульс менший за 80 ударів, то він у нормі, інакше – підвищений. Скопіюйте цю формулу в клітинки G4:G7.</p></li>
+			<div class="img" >
+			<img src="images/article/3/table.3.1.jpg" alt=""><br>
+			<span>Таблиця 3.1. Визначення типу пульсу</span>
+		</div>
+			<li>Для розрахунку індексу маси тіла працівника скористайтеся формулою <i><b>Ind = x/y<sup>2</sup></b></i>, де <i><b>х</b></i> – маса, кг; <i><b>у</b></i> – зріст, м. Для обчислення індексу маси тіла першого працівника введіть цю формулу у клітинку D3 і скопіюйте її до клітинок D4:D7 для визначення індексу маси тіла для решти працівників.</li>
+			<li>На основі даних таблиці 3.2. за допомогою логічної функції IF визначте для  першого працівника відхилення маси тіла від норми за формулою, яку введіть до клітинки Е3.
+			<div class="img" >
+			<img src="images/article/3/table.3.2.jpg" alt=""><br>
+			<span>Таблиця 3.2. Відповідність між зростом та масою тіла людини</span>
+		</div>
+		<p>Формулу уведіть самостійно, застосувавши той самий принцип, що й у формулі для визначення типу пульсу. Скопіюйте введену формулу для клітинок Е4:Е7 (рис. 3.10).</p></li>
+		<div class="img">
+		<img src="images/article/3/pict.3.10.jpg" alt=""><br>
+			<span>Рис. 3.10. Таблиця результатів медичного огляду</span>
+		</div>
+			<li>До клітинок В8 і В9 введіть формули для обчислення максимальної та мінімальної маси тіла. Скористайтеся для цього відповідними статистичними функціями. </li>
+			<li>Скопіюйте формули з клітинок В8:В9 у клітинки С8:С9. У результаті ви маєте отримати таку таблиця, як на рис. 3.10.</li>
+			</ol>
+			</div>
+                    </article>
+                </section><!--content end here-->
+                
+                
+                <div class="clear"></div>
+                </div><!--content_w end here-->
+            </div><!--wrapper end here-->
+        </div><!--wrapper1 end here-->
+        <footer class="footer">
+            <div class="copyright">
+                © 2014 | Гришуніна Марина
+            </div><!--copyright end here-->
+        </footer><!--footer end here-->
+    </body>
+</html>

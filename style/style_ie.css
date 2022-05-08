@@ -1,0 +1,12 @@
+#ipt_file{
+    position: absolute;
+    width: 65px;
+    left: 290px;
+    height: 30px;
+/*    -moz-opacity: 0; 
+    filter: alpha(opacity=0); 
+    opacity: 0; */
+    cursor: pointer;
+    padding: 8px;
+    background: red;
+}

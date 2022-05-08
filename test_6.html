@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Табличний процесор MS Excel</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="shortcut icon" href="favicon.ico.png">
+		<script src="js/JQuery_1_8_2.js"></script>		
+        <!--[if IE 8]>      
+            <link rel="stylesheet" type="text/css" href="style/style_ie8.css">
+        <![endif]-->
+        
+        <!-- html5.js for IE less than 9 -->
+         <!-- css3-mediaqueries.js for IE less than 9 -->
+        <!--[if lt IE 9]>      
+            <script type="text/javascript" src="js/html5.js"></script>
+            <script type="text/javascript" src="js/css3.mediaquery.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+	
+	 </div><!--test end here-->
+        <div class="wrapper_1">
+            <div class="wrapper">
+                <header class="header">
+                    <div class="top_menu">
+                        <ul>
+                            <li>
+                                <a href="index.html">Головна</a>
+                            </li>
+                            <li>
+                                <a href="list.html">Зміст підручника</a>
+                            </li>
+                            <li>
+                                <a href="literature.html">Використані джерела</a>
+                            </li>
+							<li>
+                                <a href="zagotovki.html">Заготовки до вправ</a>
+                            </li>
+                        </ul>
+                    </div><!--top_menu end here-->
+                    <div class="clear"></div>
+                    <div class="header_logo f_left">
+					<!--<a href="#"><img src="images/Excel_Logo.png" alt="" /></a>-->
+					   <a href="index.html">Табличний процесор <span>MS Excel</span></a>
+                    </div><!--header_logo end here-->
+                    <div class="clear"></div>
+                    <nav class="header_nav">
+                        <ul>
+                            <li>
+                                <a href="part_1.html">Основи роботи</a>
+                            </li>
+                            <li>
+                                <a href="part_2.html">Формули</a>
+                            </li>
+                            <li>
+                                <a href="part_3.html">Вбудовані функції</a>
+                            </li>
+                            <li>
+                                <a href="part_4.html">Побудова діаграм</a>
+                            </li>
+                            <li>
+                                <a href="part_5.html">Вибирання даних</a>
+                            </li>
+							 <li>
+                                <a href="part_6.html">Задачі оптимізації</a>
+                            </li>
+							 <li>
+                                <a href="part_7.html">Статистичні методи</a>
+                            </li>
+                          
+                        </ul>
+                    </nav><!--header_nav end here-->
+                    <div class="clear"></div>
+                </header><!--header end here-->
+                <div class="content_w">
+                <aside class="sidebar_left f_left">
+                    <h2>
+                        Теорія
+                    </h2>
+                    <ul>
+					    <li>
+                            <a href="model.html">Математична модель оптимізаційної задачі</a>
+                        </li>
+						 <li>
+                            <a href="optimisation_excercise.html">Розв'язання оптимізаційних задач за допомогою Excel</a>
+                        </li>
+						 <li>
+                            <a href="parameter.html">Використання засобу Підбір параметра</a>
+                        </li>
+                    </ul><br/>
+					
+					<h2>
+                        Практика
+                    </h2>
+					<ul>
+					 <li>
+                            <a href="exercise_6_1.html">Вправа 6.1</a>
+                        </li>
+                        <li>
+                            <a href="exercise_6_2.html">Вправа 6.2</a>
+                        </li>
+						<li>
+                            <a href="exercise_6_3.html">Вправа 6.3</a>
+                        </li>
+                        <li>
+                            <a href="practice_6_1.html">Практична робота № 6.1</a>
+                        </li>
+						<li>
+                            <a href="practice_6_2.html">Практична робота № 6.2</a>
+                        </li>
+					</ul>	
+					<h2>
+                        Самостійно
+                    </h2>
+					<ul>
+					 	<li>
+                            <a href="independent_work_6.html">Завдання 1-5</a>
+                        </li>
+					</ul>				
+                </aside><!--sidebar_left end here-->
+                <section class="content f_right">
+                    <article>
+                        <script>
+// Заголовок страницы (h1)
+var title = 'Тест "Задачі оптимізації в програмі MS Excel"';
+// Это ваши вопросы
+var questions=[
+{
+    text: "1. Задачі, у яких вимагається не просто знайти який-небудь розв'язок, а підібрати серед усіх розв'язків найкращий (оптимальний) називаються ...",
+    answers: ["аналітичними",
+          "оптимізаційними",
+		  "інтеративними",
+          "економічними"],
+    correctAnswer: 1
+},
+{
+    text: "2. Різновид оптимізаційних задач, в яких цільова функція та обмеження є лінійними:",
+    answers: ["задачі цільового програмування",
+          "ітеративні задачі",
+		  "задачі лінійного програмування",
+          "транспортні задачі"],
+    correctAnswer: 2 // нумерация ответов с нуля!
+},
+{
+    text: "3. Елемент моделі оптимізаційної задачі, величина, яка залежить від змінних і значення якої потрібно максимізувати чи мінімізувати:",
+    answers: ["цільова функція",
+          "критерій",
+		  "обмеження",
+          "змінна"],
+    correctAnswer: 0
+},
+{
+    text: "4. Елемент моделі оптимізаційної задачі, невідома величина, значення якої потрібно знайти в результаті розв'язання задачі: ",
+    answers: ["цільова функція",
+          "критерій",
+		  "обмеження",
+          "змінна"],
+    correctAnswer: 3
+},
+{
+    text: "5. Елемент моделі оптимізаційної задачі, вимога мінімізації чи максимізації цільової функції:",
+    answers: ["цільова функція",
+          "критерій",
+		  "обмеження",
+          "змінна"],
+    correctAnswer: 1
+},
+{
+    text: "6. Елемент моделі оптимізаційної задачі, умови, яким мають задовольняти змінні:",
+    answers: ["цільова функція",
+          "критерій",
+		  "обмеження",
+          "змінна"],
+    correctAnswer: 2
+},
+{
+    text: "7. Якою командою відкрити діалогове вікно Пошук розв’язку? ",
+    answers: ["Вставка <img src=images/icons/icon8.jpg > Пошук розв’язку",
+          "Формули <img src=images/icons/icon8.jpg > Пошук розв’язку",
+		  "Дані <img src=images/icons/icon8.jpg > Аналіз <img src=images/icons/icon8.jpg > Пошук розв’язку",
+          "Сервіс <img src=images/icons/icon8.jpg > Пошук розв’язку"],
+    correctAnswer: 2
+},
+{
+    text: "8. Інструмент Пошук роз'язку шукає розв'язок оптимізаційної задачі за допомогою ...",
+    answers: ["лінійного алгоритму",
+          "розгалуженого алгоритму",
+		  "простого алгоритму",
+          "ітеративного алгоритму"],
+    correctAnswer: 0
+},
+{
+    text: "9. У полі Изменяя ячейки діалогового вікна Пошук розв’язку вказують ...",
+    answers: ["адреси клітинок, де містяться аргументи цільової функції",
+          "адреси клітинок, де містяться результати цільової функції",
+		  "адресу цільової функції",
+          "список граничних умов поставленої задачі"],
+    correctAnswer: 0
+},
+{
+    text: "10. Якою командою відкрити діалогове вікно Підбір параметра?",
+    answers: ["Дані <img src=images/icons/icon8.jpg > Робота з даними <img src=images/icons/icon8.jpg > Підбір параметра",
+          "Сервіс <img src=images/icons/icon8.jpg > Підбір параметра",
+		  "Вставка <img src=images/icons/icon8.jpg > Підбір параметра",
+          "Формули <img src=images/icons/icon8.jpg > Підбір параметра"],
+    correctAnswer: 0
+},
+{
+    text: "11. У полі Установити у клітинці діалогового вікна Підбір параметра вказують ...",
+    answers: ["список граничних умов поставленої задачі",
+          "адресу клітинки-параметра",
+		  "значення, якого має набути цільова функція",
+          "адресу цільової клітинки"],
+    correctAnswer: 3
+},
+{
+    text: "12. У полі Змінюючи значення клітинки діалогового вікна Підбір параметра вказують ...",
+    answers: ["адресу клітинки, де міститься результат цільової функції",
+          "адресу клітинки-параметра",
+		  "значення, якого має набути цільова функція",
+          "список граничних умов поставленої задачі"],
+    correctAnswer: 1
+},
+];
+ 
+var yourAns = new Array;
+
+
+var score = 0;
+ 
+function Engine(question, answer) {yourAns[question]=answer;}
+ 
+
+
+function Score(){
+    if($('ol li').hasClass('no-answer'))
+    {
+        $('.message').css({'display': 'block'});
+    }
+    else
+    {
+        $('.message').css({'display': 'none'});
+        var q = $('ol li').length;
+        var answerText = "<h2>Ваші результати:</h2>";
+        for(var i = 0; i < q; ++i){
+        var num = i+1;
+        answerText=answerText+"\n    <span class=\"q-number\">Запитання №"+ num +"</span><br>";
+        if(yourAns[i]!=questions[i].correctAnswer){
+            
+            answerText=answerText+ "<span class=\"q-incorrect\">Відповідь не вірна!<br></span>";
+
+            answerText=answerText+"\n    <span class=\"q-help\">Правильна відповідь: " +
+            questions[i].answers[questions[i].correctAnswer] + "\n</span><br>";
+          }
+            else{
+            answerText=answerText+"<span class=\"q-correct\">Вірно! \n</span>";
+            ++score;
+            }
+           }
+     
+       answerText=answerText+"\n<span class=\"q-score\">Всього правильних відповідей: <b>"+score+"</b>\n</span>";
+     
+       //alert(answerText);
+       yourAns = new Array;
+       score = 0;
+       clearForm("quiz");
+       $('.result-body').html(answerText);
+    }
+    
+}
+
+
+
+function clearForm(name) {
+
+   $('.message').css({'display': 'none'});
+   var f = document.forms[name];
+   for(var i = 0; i < f.elements.length; ++i) {
+    if(f.elements[i].checked)
+        f.elements[i].checked = false;
+}
+}
+</script>
+ 
+<style>
+span.quest {font-weight: bold;}
+</style>
+<div class="test-01">
+<h1><script>document.write(title)</script></h1>
+<!--<h2><script>document.write(subtitle)</script></h2>-->
+ 
+<form name="quiz">
+<ol>
+<script>    
+for(var q=0; q<questions.length; ++q) {
+   var question = questions[q];
+   var idx = 1 + q;
+ 	
+	
+	
+   document.writeln('<li class="no-answer"><span class="quest">' + question.text + '</span><br/>');
+   for(var i in question.answers) {
+    document.writeln('<input type=radio name="q' + idx + '" value="' + i +
+    '" onClick="Engine(' + q + ', this.value)" id="'+idx + i +'"><label for="'+ idx + i +'">' + question.answers[i] + '</label><br/>');
+	}
+
+	
+		
+
+
+}
+</script>
+<script>
+    $(document).ready(function(){
+
+        $('ol li input').click(function(){
+           
+                $(this).parent().removeClass('no-answer');
+            });
+    });
+</script>
+</ol>
+<input class="test-btn-01" id="test-btn" type=button onClick="Score()" value="Перевірити результати">
+ 
+</form>
+
+<div class="message">
+    Дайте відповіді на усі запитання!
+</div>
+<div class="result">
+    <div class="result-title">
+        
+    </div>
+    <div class="result-body">
+
+    </div><!--result-body end here-->
+</div><!--result-->
+</div><!--test-01-->
+						
+
+                    </article>
+                </section><!--content end here-->
+                
+                
+                <div class="clear"></div>
+                </div><!--content_w end here-->
+            </div><!--wrapper end here-->
+        </div><!--wrapper1 end here-->
+        <footer class="footer">
+            <div class="copyright">
+                © 2014 | Гришуніна Марина
+            </div><!--copyright end here-->
+        </footer><!--footer end here-->
+    </body>
+</html>

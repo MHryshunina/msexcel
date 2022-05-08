@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Табличний процесор MS Excel</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style.css">
+       <link rel="shortcut icon" href="favicon.ico.png">
+	   
+	   <script src="js/JQuery_1_8_2.js"></script>
+        <script src="js/test.js"></script>
+	   
+        <!--[if IE 8]>      
+            <link rel="stylesheet" type="text/css" href="style/style_ie8.css">
+        <![endif]-->
+        
+        <!-- html5.js for IE less than 9 -->
+         <!-- css3-mediaqueries.js for IE less than 9 -->
+        <!--[if lt IE 9]>      
+            <script type="text/javascript" src="js/html5.js"></script>
+            <script type="text/javascript" src="js/css3.mediaquery.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+	
+	<div class="test" id="test">
+            <a href="test_2.html">
+                <img src="images/test.png" alt="" width="20">
+            </a>
+	 </div><!--test end here-->
+	 
+        <div class="wrapper_1">
+            <div class="wrapper">
+                <header class="header">
+                    <div class="top_menu">
+                        <ul>
+                            <li>
+                                <a href="index.html">Головна</a>
+                            </li>
+                            <li>
+                                <a href="list.html">Зміст підручника</a>
+                            </li>
+                            <li>
+                                <a href="literature.html">Використані джерела</a>
+                            </li>
+							<li>
+                                <a href="zagotovki.html">Заготовки до вправ</a>
+                            </li>
+                        </ul>
+                    </div><!--top_menu end here-->
+                    <div class="clear"></div>
+                    <div class="header_logo f_left">
+					<!--<a href="#"><img src="images/Excel_Logo.png" alt="" /></a>-->
+					   <a href="index.html">Табличний процесор <span>MS Excel</span></a>
+                    </div><!--header_logo end here-->
+                    <div class="clear"></div>
+                    <nav class="header_nav">
+                        <ul>
+                            <li>
+                                <a href="part_1.html">Основи роботи</a>
+                            </li>
+                            <li>
+                                <a href="part_2.html">Формули</a>
+                            </li>
+                            <li>
+                                <a href="part_3.html">Вбудовані функції</a>
+                            </li>
+                            <li>
+                                <a href="part_4.html">Побудова діаграм</a>
+                            </li>
+                            <li>
+                                <a href="part_5.html">Вибирання даних</a>
+                            </li>
+                          <li>
+                                <a href="part_6.html">Задачі оптимізації</a>
+                            </li>
+							 <li>
+                                <a href="part_7.html">Статистичні методи</a>
+                            </li>
+                        </ul>
+                    </nav><!--header_nav end here-->
+                    <div class="clear"></div>
+                </header><!--header end here-->
+                <div class="content_w">
+                <aside class="sidebar_left f_left">
+                    <h2>
+                        Теорія
+                    </h2>
+                    <ul>
+					    <li>
+                            <a href="formula.html">Уведення формул</a>
+                        </li>
+						 <li>
+                            <a href="formula_error.html">Помилки у формулах</a>
+                        </li>
+						 <li>
+                            <a href="formula_copy.html">Копіювання формул</a>
+							</li>
+                    </ul><br/>
+					
+					<h2>
+                        Практика
+                    </h2>
+					<ul>
+					 <li>
+                            <a href="exercice_2_1.html">Вправа 2.1</a>
+                        </li>
+                        <li>
+                            <a href="exercice_2_2.html">Вправа 2.2</a>
+                        </li>
+						<li>
+                            <a href="exercise_2_3.html">Вправа 2.3</a>
+                        </li>
+                        <li>
+                            <a href="practice_2_1.html">Практична робота № 2.1</a>
+                        </li>
+						<li>
+                            <a href="practice_2_2.html">Практична робота № 2.2</a>
+                        </li>
+						</ul>	
+					<h2>
+                        Самостійно
+                    </h2>
+					<ul>
+					 	<li>
+                            <a href="independent_work_2.html">Завдання 1-5</a>
+                        </li>
+					</ul>				
+                </aside><!--sidebar_left end here-->
+                <section class="content f_right">
+                    <article>
+                        <h2>Практична робота 2.1</h2>
+						<p>Створіть електронну таблицю для обчислення вартості проживання в готельному номері за добу та за визначений користувачем термін, якщо наявність побутової техніки в номері збільшує його вартість на певний відсоток (табл. 2.3). кількість побутової техніки в номері становить: 1 праска на особу; 1 телевізор на особу (напівлюкс і люкс); 1 телевізор на у стандартному номері на дві особи; 1 холодильник (напівлюкс і люкс); 1 фен на особу (напівлюкс і люкс); 1 кавоварка.</p>	
+			<div class="img">
+				<img src="images/article/2/table. 2.3.jpg" alt=""><br>
+				<span>Таблиця 2.3. Вихідні дані для обчислення вартості готельного номера</span>
+			</div>
+			<p><b>Хід виконання</b></p>
+			<div class="list">
+				<ol>
+				<li>Створіть таблицю для обчислення вартості готельного номера залежно від наявності побутової техніки за добу та за задану кількість діб (рис. 2.15). Збережіть таблицю у файлі з іменем <b>Практ_2_1.xlsx</b>.</li>
+				<li>Для діапазону B3:F3 встановіть числовий формат <b>Відсотковий</b>, скориставшись кнопкою <img src="images/icons/icon24.jpg"> (<b>Відсотковий формат</b>) групи <b>Число</b> вкладки <b>Основне</b>.</li>
+				<li>Уведіть у клітинки B3:F3 відповідні дані з табл. 2.3.</li>
+				<li>Для діапазону G7:I12  встановіть числовий формат <b>Грошовий</b>, скориставшись вікном <b>Формат клітинок</b> або кнопкою <img src="images/icons/icon21.jpg"> (<b>Грошовий формат</b>) групи <b>Число</b> вкладки <b>Основне</b>, та задайте кількість десяткових розрядів, рівну нулю.</li>
+				<li>До клітинки I3 введіть кількість діб, наприклад 11.</li>
+				<li>У діапазон G7:G12 уведіть добову вартість номерів без побутової техніки: <b>100, 150, 200, 250, 300, 350</b>.</li>
+			<div class="img">
+				<img src="images/article/2/pict. 2.15.jpg" alt=""><br>
+				<span>Рис. 2.15. Форма для обчислення вартості готельного номера за день і задану кількість днів</span>
+			</div>
+				<li>У діапазон B7:F12 уведіть дані про кількість побутової техніки в номері згідно з умовою задачі.</li>
+				<li>До клітинки Н7 самостійно введіть формулу для обчислення вартості стандартного номера на особу за добу, якщо у номері є побутова техніка:
+ <img src="images/icons/icon26.jpg"> де <img src="images/icons/icon27.jpg">  – вартість стандартного номера на особу без техніки; <img src="images/icons/icon28.jpg"> – відсотки підвищення вартості номера за наявності праски, телевізора, холодильника, фена та кавоварки відповідно; <img src="images/icons/icon29.jpg"> – кількість у номері прасок, телевізорів, холодильників, фенів та кавоварок відповідно. Зауважте, що посилання на клітинки, де містяться відсотки, на які підвищується вартість номера, мають бути абсолютними.
+</li>
+				<li>Скопіюйте формулу з клітинки Н7 у діапазон Н8:Н12.</li>
+				<li>До клітинки І7 уведіть формулу для обчислення вартості номера за задану кількість діб: <b>=Н7*$І$3</b>.</li>
+				<li>Скопіюйте формулу з клітинки І7 у діапазон клітинок І8:І12.</li>
+				<li>Відформатуйте таблицю згідно рис. 2.16. Збережіть файл. </li>
+				</ol>
+				</div>
+			<div class="img">
+				<img src="images/article/2/pict. 2.16.jpg" alt=""><br>
+				<span>Рис. 2.16. Таблиця з інформацією про вартість готельних номерів з урахуванням наявної в них побутової техніки</span>
+			</div>
+				
+				 </article>
+                </section><!--content end here-->
+                
+                
+                <div class="clear"></div>
+                </div><!--content_w end here-->
+            </div><!--wrapper end here-->
+        </div><!--wrapper1 end here-->
+        <footer class="footer">
+            <div class="copyright">
+                © 2014 | Гришуніна Марина
+            </div><!--copyright end here-->
+        </footer><!--footer end here-->
+    </body>
+</html>

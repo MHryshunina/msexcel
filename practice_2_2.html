@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Табличний процесор MS Excel</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="shortcut icon" href="favicon.ico.png">
+		
+		<script src="js/JQuery_1_8_2.js"></script>
+        <script src="js/test.js"></script>
+		
+        <!--[if IE 8]>      
+            <link rel="stylesheet" type="text/css" href="style/style_ie8.css">
+        <![endif]-->
+        
+        <!-- html5.js for IE less than 9 -->
+         <!-- css3-mediaqueries.js for IE less than 9 -->
+        <!--[if lt IE 9]>      
+            <script type="text/javascript" src="js/html5.js"></script>
+            <script type="text/javascript" src="js/css3.mediaquery.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+	
+	<div class="test" id="test">
+            <a href="test_2.html">
+                <img src="images/test.png" alt="" width="20">
+            </a>
+	 </div><!--test end here-->
+	 
+        <div class="wrapper_1">
+            <div class="wrapper">
+                <header class="header">
+                    <div class="top_menu">
+                        <ul>
+                            <li>
+                                <a href="index.html">Головна</a>
+                            </li>
+                            <li>
+                                <a href="list.html">Зміст підручника</a>
+                            </li>
+                            <li>
+                                <a href="literature.html">Використані джерела</a>
+                            </li>
+							<li>
+                                <a href="zagotovki.html">Заготовки до вправ</a>
+                            </li>
+                        </ul>
+                    </div><!--top_menu end here-->
+                    <div class="clear"></div>
+                    <div class="header_logo f_left">
+					<!--<a href="#"><img src="images/Excel_Logo.png" alt="" /></a>-->
+					   <a href="index.html">Табличний процесор <span>MS Excel</span></a>
+                    </div><!--header_logo end here-->
+                    <div class="clear"></div>
+                    <nav class="header_nav">
+                        <ul>
+                            <li>
+                                <a href="part_1.html">Основи роботи</a>
+                            </li>
+                            <li>
+                                <a href="part_2.html">Формули</a>
+                            </li>
+                            <li>
+                                <a href="part_3.html">Вбудовані функції</a>
+                            </li>
+                            <li>
+                                <a href="part_4.html">Побудова діаграм</a>
+                            </li>
+                            <li>
+                                <a href="part_5.html">Вибирання даних</a>
+                            </li>
+                          <li>
+                                <a href="part_6.html">Задачі оптимізації</a>
+                            </li>
+							 <li>
+                                <a href="part_7.html">Статистичні методи</a>
+                            </li>
+                        </ul>
+                    </nav><!--header_nav end here-->
+                    <div class="clear"></div>
+                </header><!--header end here-->
+                <div class="content_w">
+                <aside class="sidebar_left f_left">
+                    <h2>
+                        Теорія
+                    </h2>
+                    <ul>
+					    <li>
+                            <a href="formula.html">Уведення формул</a>
+                        </li>
+						 <li>
+                            <a href="formula_error.html">Помилки у формулах</a>
+                        </li>
+						 <li>
+                            <a href="formula_copy.html">Копіювання формул</a>
+							</li>
+                    </ul><br/>
+					
+					<h2>
+                        Практика
+                    </h2>
+					<ul>
+					 <li>
+                            <a href="exercice_2_1.html">Вправа 2.1</a>
+                        </li>
+                        <li>
+                            <a href="exercice_2_2.html">Вправа 2.2</a>
+                        </li>
+						<li>
+                            <a href="exercise_2_3.html">Вправа 2.3</a>
+                        </li>
+                        <li>
+                            <a href="practice_2_1.html">Практична робота № 2.1</a>
+                        </li>
+						<li>
+                            <a href="practice_2_2.html">Практична робота № 2.2</a>
+                        </li>
+						</ul>	
+					<h2>
+                        Самостійно
+                    </h2>
+					<ul>
+					 	<li>
+                            <a href="independent_work_2.html">Завдання 1-5</a>
+                        </li>
+					</ul>					
+                </aside><!--sidebar_left end here-->
+                <section class="content f_right">
+                    <article>
+                        <h2>Практична робота 2.2 </h2>
+<p>Маючи інформацію про загальну кількість деталей у чотирьох приладах, а також про те, який відсоток від цієї кількості становлять деталі певного виду (резистори, конденсатори тощо), необхідно створити електронну таблицю для обчислення вартості приладів. Вартість радіодеталей, з яких вони складаються, подано в табл. 2.4.
+<div class="img">
+					<img src="images/article/2/table. 2.4.jpg" alt=""><br>
+					<span>Таблиця 2.4. Вартість радіодеталей</span>
+				</div>
+</p>
+<p><b>Хід виконання</b>
+<div class="list">
+<ol>
+<li>Створіть таблицю вартості радіодеталей і форму для таблиці вартості електроприладів (рис. 2.17). Збережіть таблицю у файлі з іменем <b>Практ_2_2.хlsx</b>.
+<div class="img">
+					<img src="images/article/2/pict. 2.17.jpg" alt=""><br>
+					<span>Рис. 2.17. Форма таблиці для розрахунку вартості електроприладів</span>
+				</div></li>
+<li>Для діапазону В10:D13 встановіть числовий формат <b>Відсотковий</b>, скориставшись вікном <b>Формат клітинок</b> або кнопкою <img src="images/icons/icon24.jpg"> (<b>Відсотковий формат</b>) групи <b>Число</b> вкладки <b>Основне</b>.</li>
+<li>Для діапазону F10:G14 встановіть числовий формат <b>Грошовий</b>, скориставшись вікном <b>Формат клітинок</b> або кнопкою <img src="images/icons/icon21.jpg"> (<b>Грошовий формат</b>) групи <b>Число</b> вкладки <b>Основне</b>.</li>
+<li>У діапазон Е10:Е13 уведіть загальну кількість радіоелементів у кожному з приладів: прилад 1 — 400, прилад 2 — 300, прилад 3 — 100, прилад 4 — 200.
+До таблиці вартості уведіть дані про кількість радіодеталей кожного виду у різних приладах, скориставшись табл. 2.5.
+<div class="img">
+					<img src="images/article/2/table. 2.5.jpg" alt=""><br>
+					<span>Таблиця 2.5. Уміст радіодеталей у приладах, %</span>
+				</div>
+</li>
+<li>До клітинки Р10 самостійно введіть формулу для обчислення вартості приладу 1, якщо:<b><i>V</i><sub>прил</sub> = <i>К</i> * (<i>V</i><sub>рез</sub> * <i>U</i><sub>рез</sub> + <i>V</i><sub>конд</sub> * <i>U</i><sub>конд</sub> + <i>V</i><sub>транз</sub> * <i>U</i><sub>транз</sub>)</b>, де <b><i>V</i><sub>прил</sub></b> — вартість приладу; <b><i>К</i></b> — загальна кількість радіоелементів у приладі; <b><i>V</i>рез, <i>V</i>конд, <i>V</i>транз</b>  — вартість одного резистора, конденсатора і транзистора відповідно; <b><i>U</i>рез , <i>U</i>конд , <i>U</i>транз</b> — відсотковий уміст у приладі резисторів, конденсаторів і транзисторів відповідно.
+Зауважте, що посилання на клітинки, які містять значення вартості радіодеталей, мають бути абсолютними.</li>
+<li>Скопіюйте формулу з клітинки F10 у діапазон клітинок F11:F13.</li>
+<li>Для клітинки G5 установіть формат <b>Відсотковий</b>, скориставшись кнопкою <img src="images/icons/icon24.jpg"> (<b>Відсотковий формат</b>) групи <b>Число</b> вкладки <b>Основне</b>. Уведіть до клітинки G5 число 20 (значення ПДВ).</li>
+<li>До клітинки G10 уведіть формулу для обчислення вартості приладу з урахуванням ПДВ: <b>=F10+F10*$G$5</b>.</li>
+<li>Скопіюйте формулу з клітинки G10 у клітинки G11:G13.
+У клітинці F14 обчисліть підсумкове значення для стовпця <b>Вартість приладу</b>, а у клітинці G14 — підсумкове значення для стовпця <b>Вартість приладу з урахуванням ПДВ</b>.</li>
+<li>Відформатуйте таблицю, як на рис. 2.18, та збережіть її.
+<div class="img">
+					<img src="images/article/2/pict. 2.18.jpg" alt=""><br>
+					<span>Рис. 2.18. Таблиця з обчисленими значеннями вартості приладів</span>
+				</div>
+
+</li>
+</ol>
+</div>
+
+
+                    </article>
+                </section><!--content end here-->
+                
+                
+                <div class="clear"></div>
+                </div><!--content_w end here-->
+            </div><!--wrapper end here-->
+        </div><!--wrapper1 end here-->
+        <footer class="footer">
+            <div class="copyright">
+               © 2014 | Гришуніна Марина
+            </div><!--copyright end here-->
+        </footer><!--footer end here-->
+    </body>
+</html>

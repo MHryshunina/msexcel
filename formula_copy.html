@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Табличний процесор MS Excel</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="shortcut icon" href="favicon.ico.png">
+		
+		<script src="js/JQuery_1_8_2.js"></script>
+        <script src="js/test.js"></script>
+		
+        <!--[if IE 8]>      
+            <link rel="stylesheet" type="text/css" href="style/style_ie8.css">
+        <![endif]-->
+        
+        <!-- html5.js for IE less than 9 -->
+         <!-- css3-mediaqueries.js for IE less than 9 -->
+        <!--[if lt IE 9]>      
+            <script type="text/javascript" src="js/html5.js"></script>
+            <script type="text/javascript" src="js/css3.mediaquery.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+	
+	<div class="test" id="test">
+            <a href="test_2.html">
+                <img src="images/test.png" alt="" width="20">
+            </a>
+	 </div><!--test end here-->
+	 
+        <div class="wrapper_1">
+            <div class="wrapper">
+                <header class="header">
+                    <div class="top_menu">
+                        <ul>
+                            <li>
+                                <a href="index.html">Головна</a>
+                            </li>
+                            <li>
+                                <a href="list.html">Зміст підручника</a>
+                            </li>
+                            <li>
+                                <a href="literature.html">Використані джерела</a>
+                            </li>
+							<li>
+                                <a href="zagotovki.html">Заготовки до вправ</a>
+                            </li>
+                        </ul>
+                    </div><!--top_menu end here-->
+                    <div class="clear"></div>
+                    <div class="header_logo f_left">
+					<!--<a href="#"><img src="images/Excel_Logo.png" alt="" /></a>-->
+					   <a href="index.html">Табличний процесор <span>MS Excel</span></a>
+                    </div><!--header_logo end here-->
+                    <div class="clear"></div>
+                    <nav class="header_nav">
+                        <ul>
+                            <li>
+                                <a href="part_1.html">Основи роботи</a>
+                            </li>
+                            <li>
+                                <a href="part_2.html">Формули</a>
+                            </li>
+                            <li>
+                                <a href="part_3.html">Вбудовані функції</a>
+                            </li>
+                            <li>
+                                <a href="part_4.html">Побудова діаграм</a>
+                            </li>
+                            <li>
+                                <a href="part_5.html">Вибирання даних</a>
+                            </li>
+                          <li>
+                                <a href="part_6.html">Задачі оптимізації</a>
+                            </li>
+							 <li>
+                                <a href="part_7.html">Статистичні методи</a>
+                            </li>
+                        </ul>
+                    </nav><!--header_nav end here-->
+                    <div class="clear"></div>
+                </header><!--header end here-->
+                <div class="content_w">
+                <aside class="sidebar_left f_left">
+                    <h2>
+                        Теорія
+                    </h2>
+                    <ul>
+					    <li>
+                            <a href="formula.html">Уведення формул</a>
+                        </li>
+						 <li>
+                            <a href="formula_error.html">Помилки у формулах</a>
+                        </li>
+						 <li>
+                            <a href="formula_copy.html">Копіювання формул</a>
+							</li>
+                    </ul><br/>
+					
+					<h2>
+                        Практика
+                    </h2>
+					<ul>
+					<li>
+                            <a href="exercice_2_1.html">Вправа 2.1</a>
+                        </li>
+                        <li>
+                            <a href="exercice_2_2.html">Вправа 2.2</a>
+                        </li>
+						<li>
+                            <a href="exercise_2_3.html">Вправа 2.3</a>
+                        </li>
+                        <li>
+                            <a href="practice_2_1.html">Практична робота № 2.1</a>
+                        </li>
+						<li>
+                            <a href="practice_2_2.html">Практична робота № 2.2</a>
+                        </li>
+						</ul>	
+					<h2>
+                        Самостійно
+                    </h2>
+					<ul>
+					 	<li>
+                            <a href="independent_work_2.html">Завдання 1-5</a>
+                        </li>
+					</ul>				
+                </aside><!--sidebar_left end here-->
+                <section class="content f_right">
+                    <article>
+                        <h2>Копіювання формул</h2>
+				<p>Формули копіюють так само, як і значення: за допомогою буфера обміну або протягуючи над діапазоном маркер автозаповнення, розмішений у правому нижньому куті формул. В обох випадках основною особливістю копіювання формул є те, що використані в них адреси автоматично зсуваються. Наприклад, якщо формула у клітинці Е4 містить посилання на клітинки С4 і D4, то після копіювання у клітинку Е5 вона міститиме посилання на клітинки С5 та D5, після у копіювання у клітинку Е6 – на клітинки С6 та D6 і т.д. (рис. 2.4).</p>
+			<div class="img">
+				<img src="images/article/2/pict. 2.4.jpg" alt=""><br>
+				<span>Рис. 2.4. Результат копіювання формули з клітинки Е3 у діапазон Е4:Е7</span>
+			</div>
+				<p>Проте не завжди бажано, щоб під час копіювання формули всі посилання в ній зсувалися. За необхідності «зафіксувати» якусь частину посилання перед нею слід увести символ $. Залежно від того, чи зафіксовано посилання чи його частину, виділяють три різновиді посилань: <i><b>абсолютні, відносні</b></i> та  <i><b>мішані</b></i>.</p>
+			<div class="list_marker">	 
+		<ul>
+		<li>У <i><b>відносному</b></i> посиланні не зафіксовано жодної його частини (наприклад, А3). Тому у випадку копіювання формули обидві частини такого посилання можуть змінюватися (воно може перетворюватися, наприклад, на В4, С5 і т.д.).</li>
+		<li>Додавши перед номером рядка символ $ (наприклад, А$3) отримаємо <i><b>мішане</b></i>  посилання. У такому посиланні під час копіювання може змінюватися тільки перша його частина (В$3, С$3 тощо). Якщо знак $ додати тільки перед позначенням стовпця, то також матимемо мішане посилання, але змінюватиметься лише його друга частина ($А3, $А4 тощо).</li>
+		<li>Коли знак $ додано і перед позначенням стовпця, і перед номером рядка (наприклад, $А$3), то це <i><b>абсолютне</b></i> посилання. У разі копіювання формули до іншої клітинки таке посилання залишиться незмінним.</li>
+		</ul>
+		</div>
+				<p>За умовчанням програма Excel сприймає посилання у формулах як відносні. Змінити тип посилання під час уведення формули можна за допомогою клавіші F4.</p>
+				<p>Розглянемо приклад використання абсолютних посилань. Припустимо, в таблиці містяться відомості про валюто обмінні операції протягом дня, коли курс обміну був фінансовий. У клітинку А2 введено курс, у клітинках В2:В6 вводять суми валют, а в клітинках С2:С6 слід обчислити за формулами суми в гривнях. Для цього у клітинку С2 потрібно ввести формулу <b>=$А$2*В2</b> і скопіювати її в діапазон С3:С6. Посилання В2 змінюватиметься, а посилання <b>$А$2</b> – ні (рис. 2.5).</p>
+			<div class="img">
+				<img src="images/article/2/pict. 2.5.jpg" alt=""><br>
+				<span>Рис. 2.5. Копіювання формули, яка містить абсолютне посилання на клітинку А2</span>
+			</div>	
+				    </article>
+                </section><!--content end here-->
+                
+                
+                <div class="clear"></div>
+                </div><!--content_w end here-->
+            </div><!--wrapper end here-->
+        </div><!--wrapper1 end here-->
+        <footer class="footer">
+            <div class="copyright">
+               © 2014 | Гришуніна Марина
+            </div><!--copyright end here-->
+        </footer><!--footer end here-->
+    </body>
+</html>

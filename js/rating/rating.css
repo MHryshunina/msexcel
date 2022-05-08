@@ -1,0 +1,60 @@
+.rating {
+	cursor: pointer;
+/*	margin: 2em;*/
+	clear: both;
+	display: block;
+        margin: 9px 0 0 -5px;
+}
+.rating:after {
+	content: '.';
+	display: block;
+	height: 0;
+	width: 0;
+	clear: both;
+	visibility: hidden;
+}
+.cancel,
+.star {
+	float: left;
+	width: 25px;
+	height: 25px;
+	overflow: hidden;
+	text-indent: -999em;
+	cursor: pointer;
+}
+.star-left,
+.star-right {
+  width: 13px
+}
+.star-left{
+    margin: 0 0 0 3px;
+}
+.star-left:first-child{
+    margin: 0px;
+}
+.cancel,
+.cancel a {background: url(delete.gif) no-repeat 0 -16px;display: none;}
+
+.star,
+.star a {background: url('../../images/rating_1.png') no-repeat 0 100%;}
+.star-left,
+.star-left a {background: url('../../images/rating_l.png');background-repeat: no-repeat;background-position: 0 100%;}
+.star-right,
+.star-right a {background:  url('../../images/rating_r.png'); background-repeat: no-repeat;background-position: 0% 100%;}
+	
+/*.cancel a,*/
+.star a {
+	display: block;
+	width: 100%;
+	height:25px;
+/*	background-position: 0 0px;*/
+}
+
+div.rating div.on a {
+	background-position: 0% 0%;
+}
+div.rating div.hover a,
+div.rating div a:hover {
+	background-position: 0% 0%;
+}
+

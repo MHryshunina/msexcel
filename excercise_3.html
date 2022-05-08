@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Табличний процесор MS Excel</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="shortcut icon" href="favicon.ico.png">
+		
+		<script src="js/JQuery_1_8_2.js"></script>
+        <script src="js/test.js"></script>
+		
+        <!--[if IE 8]>      
+            <link rel="stylesheet" type="text/css" href="style/style_ie8.css">
+        <![endif]-->
+        
+        <!-- html5.js for IE less than 9 -->
+         <!-- css3-mediaqueries.js for IE less than 9 -->
+        <!--[if lt IE 9]>      
+            <script type="text/javascript" src="js/html5.js"></script>
+            <script type="text/javascript" src="js/css3.mediaquery.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+	
+	<div class="test" id="test">
+            <a href="test_3.html">
+                <img src="images/test.png" alt="" width="20">
+            </a>
+	 </div><!--test end here-->
+	 
+        <div class="wrapper_1">
+            <div class="wrapper">
+                <header class="header">
+                    <div class="top_menu">
+                        <ul>
+                            <li>
+                                <a href="index.html">Головна</a>
+                            </li>
+                            <li>
+                                <a href="list.html">Зміст підручника</a>
+                            </li>
+                            <li>
+                                <a href="literature.html">Використані джерела</a>
+                            </li><li>
+                                <a href="zagotovki.html">Заготовки до вправ</a>
+                            </li>
+                        </ul>
+                    </div><!--top_menu end here-->
+                    <div class="clear"></div>
+                    <div class="header_logo f_left">
+					<!--<a href="#"><img src="images/Excel_Logo.png" alt="" /></a>-->
+					   <a href="index.html">Табличний процесор <span>MS Excel</span></a>
+                    </div><!--header_logo end here-->
+                    <div class="clear"></div>
+                    <nav class="header_nav">
+                        <ul>
+                            <li>
+                                <a href="part_1.html">Основи роботи</a>
+                            </li>
+                            <li>
+                                <a href="part_2.html">Формули</a>
+                            </li>
+                            <li>
+                                <a href="part_3.html">Вбудовані функції</a>
+                            </li>
+                            <li>
+                                <a href="part_4.html">Побудова діаграм</a>
+                            </li>
+                            <li>
+                                <a href="part_5.html">Вибирання даних</a>
+                            </li>
+                          <li>
+                                <a href="part_6.html">Задачі оптимізації</a>
+                            </li>
+							 <li>
+                                <a href="part_7.html">Статистичні методи</a>
+                            </li>
+                        </ul>
+                    </nav><!--header_nav end here-->
+                    <div class="clear"></div>
+                </header><!--header end here-->
+                <div class="content_w">
+                <aside class="sidebar_left f_left">
+                    <h2>
+                        Теорія
+                    </h2>
+                    <ul>
+					    <li>
+                            <a href="function.html">Поняття функції</a>
+                        </li>
+						 <li>
+                            <a href="function_category.html">Категорії функцій</a>
+                        </li>					
+                    </ul><br/>
+					
+					<h2>
+                        Практика
+                    </h2>
+					<ul>
+					 <li>
+                            <a href="excercise_3.html">Вправа 3</a>
+                        </li>                    
+                       <li>
+                            <a href="practice_3_1.html">Практична робота № 3.1</a>
+                        </li>
+						<li>
+                            <a href="practice_3_2.html">Практична робота № 3.2</a>
+                        </li>
+					</ul>	
+					<h2>
+                        Самостійно
+                    </h2>
+					<ul>
+					 	<li>
+                            <a href="independent_work_3.html">Завдання 1-5</a>
+                        </li>
+					</ul>					
+                </aside><!--sidebar_left end here-->
+                <section class="content f_right">
+                    <article>
+                        <h2>Вправа 3. Розрахунок вартості продуктів після уцінення</h2>
+				<p>Розрахуйте вартість продуктів на овочевому складі після уцінення. Скориставшись таблицею, створеною під час виконання вправи 2.1, розрахуйте за допомогою формул ціну 1 кг кожного товару після уцінення, а також їх загальну вартість після уцінення. Якщо певного товару залишилося менше ніж 75 кг, його потрібно уцінити на 10 %, інакше — на 20 %.
+				<div class="list">
+				<ol>
+		<li> Відкрийте файл <b>Bnpaвa_2_1.xlsx</b> і одразу збережіть його під ім'ям <b>Bnpaвa_3_1.xlsx</b>.</li>
+		<li>Додайте до таблиці справа стовпці <b>Ціна 1 кг після уцінення</b> та <b>Вартість після уцінення</b> (рис. 3.8). Задайте для їх клітинок грошовий формат.</li>
+		<li> Виділіть клітинку FЗ, уведіть до неї формулу обчислення ціни 1 кг після уцінення. Обчислення в цій клітинці здійснюватимуться за таким принципом: якщо вага товару (клітинка СЗ) менше 75 кг, слід помножити початкову ціну (клітинка D3) на коефіцієнт 0,9, інакше — на 0,8. Отже, формула у клітинці F3 буде такою: =ІF(СЗ<75;D3*0,9;D3*0,8). Скопіюйте формулу до клітинок F4:F7. </li>
+		<li>Обчисліть нову вартість товару з урахуванням уцінення. Вона дорівнює новій ціні 1 кг товару, помноженій на його кількість. Таким чином, у клітинку GЗ введіть формулу =СЗ*ЕЗ. Скопіюйте цю формулу до клітинок G4:G7.</li>
+		<li>Обчисліть загальну вартість уціненого товару: за допомогою кнопки <img src="images/icons/icon23.jpg">(<b>Автосума</b>) групи <b>Редагування</b> вкладки <b>Основне</b> уведіть до клітинки формулу <b>=SUМ(G3:G7)</b>. Таблиця має набути такого вигляду, як на рис. 3.8. Збережіть документ.</li>
+		<div class="img" >
+			<img src="images/article/3/pict.3.8.jpg" alt=""><br>
+			<span>Рис. 3.8. Вартість продуктів на овочевому складі до і після уцінення</span></div>
+		<li>У клітинках D8 і F8 самостійно обчисліть середню ціну товару до та після уцінення. Доберіть для цього відповідну статистичну функцію.</li>
+		</ol>
+		</div></p>
+                    </article>
+                </section><!--content end here-->
+                
+                
+                <div class="clear"></div>
+                </div><!--content_w end here-->
+            </div><!--wrapper end here-->
+        </div><!--wrapper1 end here-->
+        <footer class="footer">
+            <div class="copyright">
+                © 2014 | Гришуніна Марина
+            </div><!--copyright end here-->
+        </footer><!--footer end here-->
+    </body>
+</html>

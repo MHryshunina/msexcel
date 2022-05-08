@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Табличний процесор MS Excel</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="shortcut icon" href="favicon.ico.png">
+        
+		 <script src="js/JQuery_1_8_2.js"></script>
+        <script src="js/test.js"></script>
+		
+        <!--[if IE 8]>      
+            <link rel="stylesheet" type="text/css" href="style/style_ie8.css">
+        <![endif]-->
+        
+        <!-- html5.js for IE less than 9 -->
+         <!-- css3-mediaqueries.js for IE less than 9 -->
+        <!--[if lt IE 9]>      
+            <script type="text/javascript" src="js/html5.js"></script>
+            <script type="text/javascript" src="js/css3.mediaquery.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+	
+	<div class="test" id="test">
+            <a href="test_6.html">
+                <img src="images/test.png" alt="" width="20">
+            </a>
+	 </div><!--test end here-->
+	 
+        <div class="wrapper_1">
+            <div class="wrapper">
+                <header class="header">
+                    <div class="top_menu">
+                        <ul>
+                            <li>
+                                <a href="index.html">Головна</a>
+                            </li>
+                            <li>
+                                <a href="list.html">Зміст підручника</a>
+                            </li>
+                            <li>
+                                <a href="literature.html">Використані джерела</a>
+                            </li>
+							<li>
+                                <a href="zagotovki.html">Заготовки до вправ</a>
+                            </li>
+                        </ul>
+                    </div><!--top_menu end here-->
+                    <div class="clear"></div>
+                    <div class="header_logo f_left">
+					<!--<a href="#"><img src="images/Excel_Logo.png" alt="" /></a>-->
+					   <a href="index.html">Табличний процесор <span>MS Excel</span></a>
+                    </div><!--header_logo end here-->
+                    <div class="clear"></div>
+                    <nav class="header_nav">
+                        <ul>
+                            <li>
+                                <a href="part_1.html">Основи роботи</a>
+                            </li>
+                            <li>
+                                <a href="part_2.html">Формули</a>
+                            </li>
+                            <li>
+                                <a href="part_3.html">Вбудовані функції</a>
+                            </li>
+                            <li>
+                                <a href="part_4.html">Побудова діаграм</a>
+                            </li>
+                            <li>
+                                <a href="part_5.html">Вибирання даних</a>
+                            </li>
+							 <li>
+                                <a href="part_6.html">Задачі оптимізації</a>
+                            </li>
+							 <li>
+                                <a href="part_7.html">Статистичні методи</a>
+                            </li>
+                          
+                        </ul>
+                    </nav><!--header_nav end here-->
+                    <div class="clear"></div>
+                </header><!--header end here-->
+                <div class="content_w">
+                <aside class="sidebar_left f_left">
+                    <h2>
+                        Теорія
+                    </h2>
+                    <ul>
+					    <li>
+                            <a href="model.html">Математична модель оптимізаційної задачі</a>
+                        </li>
+						 <li>
+                            <a href="optimisation_excercise.html">Розв'язання оптимізаційних задач за допомогою Excel</a>
+                        </li>
+						 <li>
+                            <a href="parameter.html">Використання засобу Підбір параметра</a>
+                        </li>
+                    </ul><br/>
+					
+					<h2>
+                        Практика
+                    </h2>
+					<ul>
+					 <li>
+                            <a href="exercise_6_1.html">Вправа 6.1</a>
+                        </li>
+                        <li>
+                            <a href="exercise_6_2.html">Вправа 6.2</a>
+                        </li>
+						<li>
+                            <a href="exercise_6_3.html">Вправа 6.3</a>
+                        </li>
+                        <li>
+                            <a href="practice_6_1.html">Практична робота № 6.1</a>
+                        </li>
+						<li>
+                            <a href="practice_6_2.html">Практична робота № 6.2</a>
+                        </li>
+					</ul>	
+					<h2>
+                        Самостійно
+                    </h2>
+					<ul>
+					 	<li>
+                            <a href="independent_work_6.html">Завдання 1-5</a>
+                        </li>
+					</ul>				
+                </aside><!--sidebar_left end here-->
+                <section class="content f_right">
+                    <article>
+                        <h2>Практична робота 6.2</h2>
+				
+<p>Потрібно розв'язати кубічне рівняння <img src="images/icons/icon71.jpg"></p>
+<p><B>Хід виконання</B></p>
+<p>Як відомо, кубічне рівняння може мати від одного до трьох коренів. Якщо розглянути функцію <img src="images/icons/icon72.jpg"> і зауважити, що <i>f</i>(-10) = -465 (велике від'ємне число), а <i>f</i>(10)=1455 (велике додатне число), то цілком імовірно, що всі три корені містяться на відрізку <i>х</i> є [-10; 10]. Щоб перевірити це припущення, потрібно обчислити значення функції на зазначеному відрізку з невеликим кроком та побудувати її графік. Після цього стане зрозуміло, скільки коренів має рівняння та в яких приблизно точках – тоді зручніше буде застосовувати засіб <b>Підбір параметра</b>.</p>
+<div class="list">
+				<ol>	
+					<li>Створіть нову електронну книгу та збережіть її у файлі під іменем <b>Пpaкт_6_2.xlsx</b>.</li>
+<li>Для визначення наближених значень коренів рівняння обчисліть значення функції на відрізку х є [-10; 10].
+<ul>
+<li>Заповніть діапазон А2:А41 значеннями арифметичної прогресії з першим членом -10 і кроком 0,5.</li>
+<li>У клітинку В2 введіть формулу цільової функції =А2^3+ 5*А2^2-4*А2-5 і скопіюйте її у клітинки ВЗ:В41.</li>
+</ul>
+
+З таблиці буде видно, що навіть на відрізку [-6;2] цільова функція тричі змінює знак, а отже, всі корені рівняння містяться на цьому відрізку (рис. 6.18, а).</li>
+<li>Побудуйте графік цільової функції на відрізку [-6; 2] за допомогою майстра діаграм (рис. 6.18, б).
+<div class="img" >
+					<img src="images/article/6/pict.6.18.jpg" alt=""><br>
+					<span>Рис. 6.18. Визначення наближених значень коренів рівняння: a – таблиця значень функції на відрізку [-6;2]; б – графік цільової функції</span>
+					</div>	
+</li>
+<li>З графіка видно, що корені рівняння містяться приблизно в точках -5,5;  -0,7 та 1,2. Визначте ці корені більш точно за допомогою засобу Підбір параметра.
+<ul>
+<li>Скопіюйте клітинку В42 у клітинки В43:В45 – це будуть цільові клітинки (а значення коренів ви будете шукати у клітинках А43:А45).
+<li>Уведіть наближене значення першого кореня, -5,5, у клітинку А43.</li>
+<li>Виконайте команду <b>Дані <img src="images/icons/icon8.jpg"> Робота з даними <img src="images/icons/icon8.jpg">Підбір параметра</b>. Заповніть поля у вікні <b>Підбір параметра</b> так, як показано на рис. 6.19, а.</li>
+<li>Клацніть кнопку <b>ОК</b>. У клітинці А43 буде виведено майже точне значення першого кореня, а в клітинці В43 – значення 1,95055Е-06 (рис. 6.19, б). Це дуже близьке до нуля число, подане в експоненційній формі. Щоб відобразити його у більш звичному вигляді, виділіть цю клітинку і на панелі інструментів <b>Форматування</b> клацніть кнопку <img src="images/icons/icon73.jpg"> (<b>Формат із розділювачами</b>). У результаті ви побачите в клітинці значення 0.
+<div class="img" >
+					<img src="images/article/6/pict.6.19.jpg" alt=""><br>
+					<span>Рис. 6.19. Обчислення першого кореня: а – вікно Підбір параметра; б – результат підбору параметра</span>
+					</div>
+</li>
+</ul>
+</li>
+<li>Скориставшись засобом <b>Підбір параметра</b>, самостійно знайдіть два інших корені рівняння у клітинках А44 та А45. Збережіть електронну книгу.</li>
+</ol>
+</div>
+
+                    </article>
+                </section><!--content end here-->
+                
+                
+                <div class="clear"></div>
+                </div><!--content_w end here-->
+            </div><!--wrapper end here-->
+        </div><!--wrapper1 end here-->
+        <footer class="footer">
+            <div class="copyright">
+                © 2014 | Гришуніна Марина
+            </div><!--copyright end here-->
+        </footer><!--footer end here-->
+    </body>
+</html>

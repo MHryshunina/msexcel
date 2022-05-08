@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Табличний процесор MS Excel</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="shortcut icon" href="favicon.ico.png">
+        
+		 <script src="js/JQuery_1_8_2.js"></script>
+        <script src="js/test.js"></script>
+		
+        <!--[if IE 8]>      
+            <link rel="stylesheet" type="text/css" href="style/style_ie8.css">
+        <![endif]-->
+        
+        <!-- html5.js for IE less than 9 -->
+         <!-- css3-mediaqueries.js for IE less than 9 -->
+        <!--[if lt IE 9]>      
+            <script type="text/javascript" src="js/html5.js"></script>
+            <script type="text/javascript" src="js/css3.mediaquery.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+	
+	<div class="test" id="test">
+            <a href="test_6.html">
+                <img src="images/test.png" alt="" width="20">
+            </a>
+	 </div><!--test end here-->
+	 
+        <div class="wrapper_1">
+            <div class="wrapper">
+                <header class="header">
+                    <div class="top_menu">
+                        <ul>
+                            <li>
+                                <a href="index.html">Головна</a>
+                            </li>
+                            <li>
+                                <a href="list.html">Зміст підручника</a>
+                            </li>
+                            <li>
+                                <a href="literature.html">Використані джерела</a>
+                            </li>
+							<li>
+                                <a href="zagotovki.html">Заготовки до вправ</a>
+                            </li>
+                        </ul>
+                    </div><!--top_menu end here-->
+                    <div class="clear"></div>
+                    <div class="header_logo f_left">
+					<!--<a href="#"><img src="images/Excel_Logo.png" alt="" /></a>-->
+					   <a href="index.html">Табличний процесор <span>MS Excel</span></a>
+                    </div><!--header_logo end here-->
+                    <div class="clear"></div>
+                    <nav class="header_nav">
+                        <ul>
+                            <li>
+                                <a href="part_1.html">Основи роботи</a>
+                            </li>
+                            <li>
+                                <a href="part_2.html">Формули</a>
+                            </li>
+                            <li>
+                                <a href="part_3.html">Вбудовані функції</a>
+                            </li>
+                            <li>
+                                <a href="part_4.html">Побудова діаграм</a>
+                            </li>
+                            <li>
+                                <a href="part_5.html">Вибирання даних</a>
+                            </li>
+							 <li>
+                                <a href="part_6.html">Задачі оптимізації</a>
+                            </li>
+							 <li>
+                                <a href="part_7.html">Статистичні методи</a>
+                            </li>
+                          
+                        </ul>
+                    </nav><!--header_nav end here-->
+                    <div class="clear"></div>
+                </header><!--header end here-->
+                <div class="content_w">
+                <aside class="sidebar_left f_left">
+                    <h2>
+                        Теорія
+                    </h2>
+                    <ul>
+					    <li>
+                            <a href="model.html">Математична модель оптимізаційної задачі</a>
+                        </li>
+						 <li>
+                            <a href="optimisation_excercise.html">Розв'язання оптимізаційних задач за допомогою Excel</a>
+                        </li>
+						 <li>
+                            <a href="parameter.html">Використання засобу Підбір параметра</a>
+                        </li>
+                    </ul><br/>
+					
+					<h2>
+                        Практика
+                    </h2>
+					<ul>
+					 <li>
+                            <a href="exercise_6_1.html">Вправа 6.1</a>
+                        </li>
+                        <li>
+                            <a href="exercise_6_2.html">Вправа 6.2</a>
+                        </li>
+						<li>
+                            <a href="exercise_6_3.html">Вправа 6.3</a>
+                        </li>
+                        <li>
+                            <a href="practice_6_1.html">Практична робота № 6.1</a>
+                        </li>
+						<li>
+                            <a href="practice_6_2.html">Практична робота № 6.2</a>
+                        </li>
+					</ul>	
+					<h2>
+                        Самостійно
+                    </h2>
+					<ul>
+					 	<li>
+                            <a href="independent_work_6.html">Завдання 1-5</a>
+                        </li>
+					</ul>				
+                </aside><!--sidebar_left end here-->
+                <section class="content f_right">
+                    <article>
+                        <h2>Вправа 6.3. Розв'язання квадратного рівняння</h2>
+				<p>Виконуючи цю вправу, за допомогою засобу <b>Підбір параметра</b> ви розв'яжете рівняння <img src="images/icons/icon61.jpg"> У нашій задачі цільовою є функція <img src="images/icons/icon62.jpg"> а 15 – це значення, якому вона має дорівнювати.</p>
+<div class="list">
+				<ol>	
+					<li>Створіть нову електронну книгу. Цільовою вважатимемо клітинку А2 і припустимо, що значення параметра зберігається у клітинці А1. Уведіть у клітинку А2 формулу =4*COS(A1)A2+3*A1.</li>
+					<li>Виконайте команду <b>Дані <img src="images/icons/icon8.jpg"> Робота за даними <img src="images/icons/icon8.jpg"> Підбір параметра</b>, заповніть поля у вікні <b>Підбір параметра</b> (рис. 6.13, а) і клацніть <b>ОК</b>. У результаті у клітинці А1 (рис. 6.13, б) буде виведено значення змінної х, за якого функція набуває значення 15. Як видно з рис. 6.13, б, знайдене вами значення є наближеним, оскільки отримано число 14,99956, а не 15.
+<div class="img" >
+					<img src="images/article/6/pict.6.13.jpg" alt=""><br>
+					<span>Рис. 6.13. Підбір параметра: a – заповнення вікна Підбір параметра;  б – результати обчислень</span>
+					</div>					
+</li>
+<li>Збережіть електронну книгу у файлі <b>Вправа_6_3.xlsx</b>.</li>
+<li>Самостійно створіть таблицю значень функції <img src="images/icons/icon62.jpg"> на інтервалі [0; 6] з кроком 0,5 та побудуйте за допомогою майстра діаграм графік цієї функції (рис. 6.14).
+Щоб отримати згладжену лінію графіка, під час побудови діаграми необхідно вибрати нестандартний тип діаграми <b>Гладкі графіки</b>.
+Перевірте правильність підбору параметра, визначивши за графіком, коли приблизно значення цільової функції дорівнює 15.
+<div class="img" >
+					<img src="images/article/6/pict.6.14.jpg" alt=""><br>
+					<span>Рис. 6.14. Побудова графіка цільової функції</span>
+					</div>
+</li>
+</ol>
+</div>
+
+                    </article>
+                </section><!--content end here-->
+                
+                
+                <div class="clear"></div>
+                </div><!--content_w end here-->
+            </div><!--wrapper end here-->
+        </div><!--wrapper1 end here-->
+        <footer class="footer">
+            <div class="copyright">
+                © 2014 | Гришуніна Марина
+            </div><!--copyright end here-->
+        </footer><!--footer end here-->
+    </body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Табличний процесор MS Excel</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="shortcut icon" href="favicon.ico.png">
+        
+		 <script src="js/JQuery_1_8_2.js"></script>
+        <script src="js/test.js"></script>
+		
+        <!--[if IE 8]>      
+            <link rel="stylesheet" type="text/css" href="style/style_ie8.css">
+        <![endif]-->
+        
+        <!-- html5.js for IE less than 9 -->
+         <!-- css3-mediaqueries.js for IE less than 9 -->
+        <!--[if lt IE 9]>      
+            <script type="text/javascript" src="js/html5.js"></script>
+            <script type="text/javascript" src="js/css3.mediaquery.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+	
+	<div class="test" id="test">
+            <a href="test_6.html">
+                <img src="images/test.png" alt="" width="20">
+            </a>
+	 </div><!--test end here-->
+	 
+        <div class="wrapper_1">
+            <div class="wrapper">
+                <header class="header">
+                    <div class="top_menu">
+                        <ul>
+                            <li>
+                                <a href="index.html">Головна</a>
+                            </li>
+                            <li>
+                                <a href="list.html">Зміст підручника</a>
+                            </li>
+                            <li>
+                                <a href="literature.html">Використані джерела</a>
+                            </li>
+							<li>
+                                <a href="zagotovki.html">Заготовки до вправ</a>
+                            </li>
+                        </ul>
+                    </div><!--top_menu end here-->
+                    <div class="clear"></div>
+                    <div class="header_logo f_left">
+					<!--<a href="#"><img src="images/Excel_Logo.png" alt="" /></a>-->
+					   <a href="index.html">Табличний процесор <span>MS Excel</span></a>
+                    </div><!--header_logo end here-->
+                    <div class="clear"></div>
+                    <nav class="header_nav">
+                        <ul>
+                            <li>
+                                <a href="part_1.html">Основи роботи</a>
+                            </li>
+                            <li>
+                                <a href="part_2.html">Формули</a>
+                            </li>
+                            <li>
+                                <a href="part_3.html">Вбудовані функції</a>
+                            </li>
+                            <li>
+                                <a href="part_4.html">Побудова діаграм</a>
+                            </li>
+                            <li>
+                                <a href="part_5.html">Вибирання даних</a>
+                            </li>
+							 <li>
+                                <a href="part_6.html">Задачі оптимізації</a>
+                            </li>
+							 <li>
+                                <a href="part_7.html">Статистичні методи</a>
+                            </li>
+                          
+                        </ul>
+                    </nav><!--header_nav end here-->
+                    <div class="clear"></div>
+                </header><!--header end here-->
+                <div class="content_w">
+                <aside class="sidebar_left f_left">
+                    <h2>
+                        Теорія
+                    </h2>
+                    <ul>
+					    <li>
+                            <a href="model.html">Математична модель оптимізаційної задачі</a>
+                        </li>
+						 <li>
+                            <a href="optimisation_excercise.html">Розв'язання оптимізаційних задач за допомогою Excel</a>
+                        </li>
+						 <li>
+                            <a href="parameter.html">Використання засобу Підбір параметра</a>
+                        </li>
+                    </ul><br/>
+					
+					<h2>
+                        Практика
+                    </h2>
+					<ul>
+					 <li>
+                            <a href="exercise_6_1.html">Вправа 6.1</a>
+                        </li>
+                        <li>
+                            <a href="exercise_6_2.html">Вправа 6.2</a>
+                        </li>
+						<li>
+                            <a href="exercise_6_3.html">Вправа 6.3</a>
+                        </li>
+                        <li>
+                            <a href="practice_6_1.html">Практична робота № 6.1</a>
+                        </li>
+						<li>
+                            <a href="practice_6_2.html">Практична робота № 6.2</a>
+                        </li>
+					</ul>	
+					<h2>
+                        Самостійно
+                    </h2>
+					<ul>
+					 	<li>
+                            <a href="independent_work_6.html">Завдання 1-5</a>
+                        </li>
+					</ul>			
+                </aside><!--sidebar_left end here-->
+                <section class="content f_right">
+                    <article>
+                        <h2>Вправа 6.1. Пошук екстремуму функції однієї змінної</h2>
+				<p>Виконуючи цю вправу, ви маєте знайти точку екстремуму та мінімальне значення функції <img src="images/icons/icon54.jpg"></p>
+				<div class="list">
+				<ol>	
+					<li>Створіть нову електронну книгу. Введіть у клітинку А2 довільне число, а в клітинку В2 – формулу цільової функції =А2^2+А2+2 (рис. 6.6). Ви отримаєте математичну модель задачі (обмежень у цьому випадку немає). Збережіть таблицю у файлі <b>Bпpaвa_6_1.xlsx</b>.
+					<div class="img" >
+					<img src="images/article/6/pict.6.6.jpg" alt=""><br>
+					<span>Рис. 6.6. Вихідні данні для знаходження екстремуму квадратичної функції</span>
+					</div></li>
+<li>Виконайте команду <b>Дані <img src="images/icons/icon8.jpg"> Аналіз <img src="images/icons/icon8.jpg"> Пошук розв'язку</b> та заповніть поля у діалоговому вікні <b>Пошук розв'язку</b>: задайте цільову клітинку В2; оберіть пошук мінімального значення (перемикач <b>Равной </b>(Рівній) установіть у положення минимальному значению (мінімальному значенню)); у полі <b>Изменяя ячейки</b> (Змінюючи клітинки) вкажіть адресу клітинки змінної А2 (рис. 6.7).
+<div class="img" >
+					<img src="images/article/6/pict.6.7.jpg" alt=""><br>
+					<span>Рис. 6.7. Заповнені поля у вікні Поиск решения</span>
+					</div></li>
+<li>Клацніть кнопку <b>Выполнить</b> (Виконати). Буде відкрито вікно <b>Результати поиска решения</b> (Результати пошуку розв'язку). Клацніть кнопку <b>ОК</b>. Результат розв'язання задачі відобразиться у клітинках А2 та В2 (рис. 6.8). Легко пересвідчитися, що результат правильний, адже вершина параболи <img src="images/icons/icon55.jpg"> міститься в точці <i>х = -b/2а = -0,5.</i>
+<div class="img" >
+					<img src="images/article/6/pict.6.8.jpg" alt=""><br>
+					<span>Рис. 6.8. Результат розв'язання оптимізаційної задачі</span>
+					</div></li>
+<li>Знайдіть за допомогою засобу <b>Пошук розв'язку</b> мінімум та максимум функції <i>у = х + 1/х</i>.</li>
+</ol>
+</div>
+
+
+                    </article>
+                </section><!--content end here-->
+                
+                
+                <div class="clear"></div>
+                </div><!--content_w end here-->
+            </div><!--wrapper end here-->
+        </div><!--wrapper1 end here-->
+        <footer class="footer">
+            <div class="copyright">
+                © 2014 | Гришуніна Марина
+            </div><!--copyright end here-->
+        </footer><!--footer end here-->
+    </body>
+</html>

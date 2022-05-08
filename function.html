@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Табличний процесор MS Excel</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="shortcut icon" href="favicon.ico.png">
+		
+		<script src="js/JQuery_1_8_2.js"></script>
+        <script src="js/test.js"></script>
+		
+        <!--[if IE 8]>      
+            <link rel="stylesheet" type="text/css" href="style/style_ie8.css">
+        <![endif]-->
+        
+        <!-- html5.js for IE less than 9 -->
+         <!-- css3-mediaqueries.js for IE less than 9 -->
+        <!--[if lt IE 9]>      
+            <script type="text/javascript" src="js/html5.js"></script>
+            <script type="text/javascript" src="js/css3.mediaquery.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+	
+	<div class="test" id="test">
+            <a href="test_3.html">
+                <img src="images/test.png" alt="" width="20">
+            </a>
+	 </div><!--test end here-->
+	 
+        <div class="wrapper_1">
+            <div class="wrapper">
+                <header class="header">
+                    <div class="top_menu">
+                        <ul>
+                            <li>
+                                <a href="index.html">Головна</a>
+                            </li>
+                            <li>
+                                <a href="list.html">Зміст підручника</a>
+                            </li>
+                            <li>
+                                <a href="literature.html">Використані джерела</a>
+                            </li>
+							<li>
+                                <a href="zagotovki.html">Заготовки до вправ</a>
+                            </li>
+                        </ul>
+                    </div><!--top_menu end here-->
+                    <div class="clear"></div>
+                    <div class="header_logo f_left">
+					<!--<a href="#"><img src="images/Excel_Logo.png" alt="" /></a>-->
+					   <a href="index.html">Табличний процесор <span>MS Excel</span></a>
+                    </div><!--header_logo end here-->
+                    <div class="clear"></div>
+                    <nav class="header_nav">
+                        <ul>
+                            <li>
+                                <a href="part_1.html">Основи роботи</a>
+                            </li>
+                            <li>
+                                <a href="part_2.html">Формули</a>
+                            </li>
+                            <li>
+                                <a href="part_3.html">Вбудовані функції</a>
+                            </li>
+                            <li>
+                                <a href="part_4.html">Побудова діаграм</a>
+                            </li>
+                            <li>
+                                <a href="part_5.html">Вибирання даних</a>
+                            </li>
+                          <li>
+                                <a href="part_6.html">Задачі оптимізації</a>
+                            </li>
+							 <li>
+                                <a href="part_7.html">Статистичні методи</a>
+                            </li>
+                        </ul>
+                    </nav><!--header_nav end here-->
+                    <div class="clear"></div>
+                </header><!--header end here-->
+                <div class="content_w">
+                <aside class="sidebar_left f_left">
+                    <h2>
+                        Теорія
+                    </h2>
+                    <ul>
+					    <li>
+                            <a href="function.html">Поняття функції</a>
+                        </li>
+						 <li>
+                            <a href="function_category.html">Категорії функцій</a>
+                        </li>					
+                    </ul><br/>
+					
+					<h2>
+                        Практика
+                    </h2>
+					<ul>
+					 <li>
+                            <a href="excercise_3.html">Вправа 3</a>
+                        </li>                    
+                        <li>
+                            <a href="practice_3_1.html">Практична робота № 3.1</a>
+                        </li>
+						<li>
+                            <a href="practice_3_2.html">Практична робота № 3.2</a>
+                        </li>
+					</ul>	
+					<h2>
+                        Самостійно
+                    </h2>
+					<ul>
+					 	<li>
+                            <a href="independent_work_3.html">Завдання 1-5</a>
+                        </li>
+					</ul>						
+                </aside><!--sidebar_left end here-->
+                <section class="content f_right">
+                    <article>
+                        <h2>Поняття функції</h2>
+				<p><i><b>Функції</b></i> в Microsoft Excel покликані автоматизувати обчислення. Їх використовують лише як частини формул. Зауважимо, що у формулах правила запису функцій такі самі, як і в математиці: після імені функції у круглих дужках указують значення її <i><b>аргументів</b></i>:</p>
+				<p><b>ІМ'Я_ФУНКЦІЇ(аргументи)</b>.</p>
+				<p>Аргументами функції можуть бути константи, адреси, діапазони, інші функції та вирази. Якщо функція має кілька аргументів, їх розділяють символом <b>«;»</b>. Наприклад, функція <b>POWER(A1;B1)</b> дозволяє обчислити результат піднесення числа з клітинки A1 до степеня, записаного у клітинці В1(рис. 3.1).</p>
+				<div class="img">
+					<img src="images/article/3/pict.3.1.jpg" alt=""><br>
+					<span>Рис. 3.1. Використання функції POWER: а — формула; б — обчислене значення</span>
+				</div>
+						<h2>Уведення функцій у формули</h2>
+				<p>Бібліотека Microsoft Excel містить понад сотню вбудованих функцій, тож запам'ятати імена всіх їх неможливо. Вибрати потрібну функцію і ввести її у формулу можна за допомогою спеціального діалогового вікна <b>Вставка функції</b> (рис. 3.2), яке відкривається кнопкою <img src="images/icons/icon25.jpg">, розташованою зліва від рядка формул.</p>
+				<div class="img">
+					<img src="images/article/3/pict.3.2.jpg" alt=""><br>
+					<span>Рис. 3.2. Вікно Вставка функції</span>
+				</div>
+				<p>Щоб користувачам було легше шукати функції, їх усі поділено на категорії, які вибирають у списку <b>Категорія</b>: математичні, статистичні, логічні, для роботи з базами даних, фінансові, для роботи з датами й часом тощо. У списку <b>Виберіть функцію</b> відображаються всі функції обраної категорії. Після подвійного клацання назви функції відкривається вікно <b>Аргументи функції</b>, у якому потрібно ввести значення її аргументів і підтвердити свої дії, клацнувши кнопку <b>ОК</b> (рис. 3.3).</p>
+				<p>На рис. 3.3 проілюстровано введення аргументів функції <b>CONCATENATE</b>, яка з'єднує кілька текстових рядків, формуючи з них один новий. Ця функція може мати різну кількість аргументів, від 1 до 30, значення яких вводяться в текстові поля, розташовані у верхній частині вікна <b>Аргументи функції</b>. Під полями аргументів після символу <b>«=»</b> відображається значення функції, нижче описується її призначення та призначення аргументу, в полі якого розміщено курсор.</p>
+				<p>Значення аргументів функції можна вводити в поля аргументів чи виділяючи клітинки таблиці, що містять потрібні аргументи. Після цього адреса клітинки або діапазону з'явиться в полі. Увівши значення аргументів, потрібно клацнути кнопку <b>ОК</b>.</p>
+				<div class="img">
+					<img src="images/article/3/pict.3.3.jpg" alt=""><br>
+					<span>Рис. 3.3. Вікно Аргументи функції</span>
+				</div>
+				<p><b>ПРИМІТКА</b>. В українській версії табличного процесора Excel 2003 назви функцій подано англійською мовою (наприклад функція обчислення суми аргументів має назву <b>SUM</b>).</p>
+				<p>Багато з вбудованих функцій Excel призначено для виконання дуже специфічних завдань. Однак, як показує досвід, найчастіше використовують такі функції:</p>
+				<div class="list_marker">
+			<ul>
+				<li><b>SUM</b>(<i><b>число1;число2;</b></i>...)(рос. <b>СУММ</b>, категорія <b>Математичні</b>) — підсумовує числа;</li>
+				<li><b>AVERAGE</b>(<i><b>число1;число2;</b></i>...)(рос. <b>СРЗНАЧ</b>, категорія <b>Статистичні</b>) — обчислює середнє значення чисел;</li>
+				<li><b>МАХ</b>(<i><b>число1;число2;</b></i>...)(рос. <b>МАКС</b>, категорія <b>Статистичні</b>) — визначає максимальне число з набору;</li>
+				<li><b>MIN</b>(<i><b>число1;число2;</b></i>...)(рос. <b>МИН</b>, категорія <b>Статистичні</b>) — знаходить мінімальне число з набору;</li>
+				<li><b>COUNT</b>(<i><b>значення1;значення2;</b></i>...)(рос. <b>СЧЕТ</b>, категорія <b>Статистичні</b>) —
+підраховує кількість чисел у списку аргументів;
+</li>
+				<li><b>SQRT</b>(<i><b>число</b></i>) (рос. <b>КОРЕНЬ</b>, категорія <b>Математичні</b>) — повертає значення квадратного кореня з числа.</li>
+				</ul>
+				</div>
+
+                    </article>
+                </section><!--content end here-->
+                
+                
+                <div class="clear"></div>
+                </div><!--content_w end here-->
+            </div><!--wrapper end here-->
+        </div><!--wrapper1 end here-->
+        <footer class="footer">
+            <div class="copyright">
+                © 2014 | Гришуніна Марина
+            </div><!--copyright end here-->
+        </footer><!--footer end here-->
+    </body>
+</html>

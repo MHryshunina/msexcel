@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Табличний процесор MS Excel</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="shortcut icon" href="favicon.ico.png">
+		 
+		 
+		  <script src="js/JQuery_1_8_2.js"></script>
+        <script src="js/test.js"></script>
+		
+        <!--[if IE 8]>      
+            <link rel="stylesheet" type="text/css" href="style/style_ie8.css">
+        <![endif]-->
+        
+        <!-- html5.js for IE less than 9 -->
+         <!-- css3-mediaqueries.js for IE less than 9 -->
+        <!--[if lt IE 9]>      
+            <script type="text/javascript" src="js/html5.js"></script>
+            <script type="text/javascript" src="js/css3.mediaquery.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+	
+	<div class="test" id="test">
+            <a href="test_6.html">
+                <img src="images/test.png" alt="" width="20">
+            </a>
+	 </div><!--test end here-->
+	 
+        <div class="wrapper_1">
+            <div class="wrapper">
+                <header class="header">
+                    <div class="top_menu">
+                        <ul>
+                            <li>
+                                <a href="index.html">Головна</a>
+                            </li>
+                            <li>
+                                <a href="list.html">Зміст підручника</a>
+                            </li>
+                            <li>
+                                <a href="literature.html">Використані джерела</a>
+                            </li><li>
+                                <a href="zagotovki.html">Заготовки до вправ</a>
+                            </li>
+                        </ul>
+                    </div><!--top_menu end here-->
+                    <div class="clear"></div>
+                    <div class="header_logo f_left">
+					<!--<a href="#"><img src="images/Excel_Logo.png" alt="" /></a>-->
+					   <a href="index.html">Табличний процесор <span>MS Excel</span></a>
+                    </div><!--header_logo end here-->
+                    <div class="clear"></div>
+                    <nav class="header_nav">
+                        <ul>
+                            <li>
+                                <a href="part_1.html">Основи роботи</a>
+                            </li>
+                            <li>
+                                <a href="part_2.html">Формули</a>
+                            </li>
+                            <li>
+                                <a href="part_3.html">Вбудовані функції</a>
+                            </li>
+                            <li>
+                                <a href="part_4.html">Побудова діаграм</a>
+                            </li>
+                            <li>
+                                <a href="part_5.html">Вибирання даних</a>
+                            </li>
+							<li>
+                                <a href="part_6.html">Задачі оптимізації</a>
+                            </li>
+							 <li>
+                                <a href="part_7.html">Статистичні методи</a>
+                            </li>
+                          
+                        </ul>
+                    </nav><!--header_nav end here-->
+                    <div class="clear"></div>
+                </header><!--header end here-->
+                <div class="content_w">
+                <aside class="sidebar_left f_left">
+                    <h2>
+                        Теорія
+                    </h2>
+                    <ul>
+					    <li>
+                            <a href="model.html">Математична модель оптимізаційної задачі</a>
+                        </li>
+						 <li>
+                            <a href="optimisation_excercise.html">Розв'язання оптимізаційних задач за допомогою Excel</a>
+                        </li>
+						 <li>
+                            <a href="parameter.html">Використання засобу Підбір параметра</a>
+                        </li>
+                       </ul><br/>
+					
+					<h2>
+                        Практика
+                    </h2>
+					<ul>
+					 <li>
+                            <a href="exercise_6_1.html">Вправа 6.1</a>
+                        </li>
+                        <li>
+                            <a href="exercise_6_2.html">Вправа 6.2</a>
+                        </li>
+						<li>
+                            <a href="exercise_6_3.html">Вправа 6.3</a>
+                        </li>
+                        <li>
+                            <a href="practice_6_1.html">Практична робота № 6.1</a>
+                        </li>
+						<li>
+                            <a href="practice_6_2.html">Практична робота № 6.2</a>
+                       </li>
+					</ul>	
+					<h2>
+                        Самостійно
+                    </h2>
+					<ul>
+					 	<li>
+                            <a href="independent_work_6.html">Завдання 1-5</a>
+                        </li>
+					</ul>			
+                </aside><!--sidebar_left end here-->
+                <section class="content f_right">
+                    <article>
+                        <h2>Математична модель оптимізаційної задачі</h2>
+						<p>У багатьох задачах вимагається не просто знайти який-небудь розв'язок, а підібрати серед усіх розв'язків найкращий (оптимальний). Йдеться про такі задачі, як підбір збалансованого раціону харчування, оптимізація асортименту продукції, оптимізація транспортних перевезень та багато інших – їх ще називають <b><i>оптимізаційними</i></b>.</p>
+<p>Перш ніж приступати до розв'язування оптимізаційної задачі, потрібно описати її в математичному вигляді, тобто побудувати її <b><i>математичну модель</i></b>. Модель оптимізаційної задачі складається з таких елементів:
+<div class="list_marker">
+						<ul>
+							<li><b><i>змінні</i></b> – невідомі величини, значення яких потрібно знайти в результаті розв'язання задачі;</li>
+							<li><b><i>цільова функція</i></b> – величина, яка залежить від змінних і значення якої потрібно максимізувати чи мінімізувати;</li>
+							<li><b><i>критерій</i></b> – вимога мінімізації чи максимізації цільової функції.</li>
+							<li><b><i>обмеження</i></b> – умови, яким мають задовольняти змінні.</li>
+</ul>
+</div>
+</p>
+<p> Найпростішою оптимізаційною задачею вважається задача пошуку максимального або мінімального значення функції однієї змінної. Наведемо приклад математичної моделі такої задачі:
+					<div class="img" >
+					<img src="images/icons/icon45.jpg" alt=""><br>
+					</div></p>
+<p>Тут змінною є <i>х</i>, цільовою функцією – <i>f(x)</i>, критерієм – вимога мінімізації (<img src="images/icons/icon4.jpg"> <i>min</i>), а обмеженнями – <img src="images/icons/icon46.jpg">.</p>
+<p>Добре дослідженим та важливим для планування виробничих процесів різновидом оптимізаційних задач є <b><i>задачі лінійного програмування</i></b> (ЗЛП), тобто задачі, в яких цільова функція та обмеження є лінійними. У загальному випадку математична модель ЗЛП має такий вигляд:
+					 <div class="img" >
+					<img src="images/icons/icon47.jpg" alt=""><br>
+					</div></p>
+<p>Тут x<sub>1, ..., x<sub>n</sub></sub> – змінні; a<sub>ij</sub>, b<sub>i</sub> та c<sub>i</sub> – деякі числа; (1) – цільова функція разом із критерієм; (2) і (3) – обмеження. Зазначимо, що обмеження (3) називаються прямими, а обмеження (2) – непрямими. У непрямих обмеженнях замість знаків «<img src="images/icons/icon52.jpg">» можуть стояти знаки «<img src="images/icons/icon53.jpg">» або «=». Крім того, можуть накладатися додаткові обмеження, наприклад, може вимагатися, щоб змінні були цілочисельними.</p>
+<p>Загалом алгоритм розв'язання оптимізаційної задачі такий.
+<div class="list">
+				<ol>	
+					<li><b>Введення позначень.</b> Потрібно визначити, яка змінна яку величину позначатиме.</li>
+<li><b>Створення цільової функції та критерію.</b> Слід визначити, яка величина максимізуватиметься чи мінімізуватиметься, та записати формулу залежності цієї величини від змінних, тобто формулу цільової функції. Нею може бути вартість продукції, обсяг прибутку, обсяг витрат на виробництво та перевезення.</li>
+<li><b>Складання системи обмежень.</b> Обмеження – це нерівності або рівності, яким мають задовольняти значення змінних.</li>
+<li><b>Розв'язання задачі.</b> Деякі оптимізаційні задачі можна розв’язати аналітично, без використання комп'ютера, проте цей спосіб надто трудомісткий. Далі ви навчитеся розв'язувати такі задачі засобами табличного процесора. Це будуть як задачі на пошук екстремуму функції однієї змінної, так і задачі лінійного програмування.</li>
+</ol>
+</div>
+</p>
+				
+                    </article>
+                </section><!--content end here-->
+                
+                
+                <div class="clear"></div>
+                </div><!--content_w end here-->
+            </div><!--wrapper end here-->
+        </div><!--wrapper1 end here-->
+        <footer class="footer">
+            <div class="copyright">
+                © 2014 | Гришуніна Марина
+            </div><!--copyright end here-->
+        </footer><!--footer end here-->
+    </body>
+</html>
